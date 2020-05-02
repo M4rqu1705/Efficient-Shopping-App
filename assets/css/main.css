@@ -1,0 +1,25 @@
+body{
+    background-color: #f9f9f9;
+}
+#shopping-cart-lottie > svg{
+    /* It hurts to use !important, but otherwise the SVG won't resize */
+    width: 3.5rem!important;
+    height: 3.5rem!important;
+}
+
+
+#map-location-lottie > svg{
+    /* It hurts to use !important, but otherwise the SVG won't resize */
+    width: 3.5rem!important;
+    height: 3.5rem!important;
+}
+
+#shopping-list-lottie > svg{
+    /* It hurts to use !important, but otherwise the SVG won't resize */
+    width: 3.5rem!important;
+    height: 3.5rem!important;
+}
+
+#banner-sections > div{
+    width: 33.33%;
+}
