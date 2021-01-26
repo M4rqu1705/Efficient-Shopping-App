@@ -1627,8 +1627,8 @@ body, input, select, textarea {
 }
 
 a {
-    color: #6cc091;
-    text-decoration: underline;
+    /* color: #6cc091; */
+    text-decoration: None;
 }
 
 a:hover {
@@ -2992,14 +2992,6 @@ button:disabled,
     margin: 0;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-    #banner {
-        background-attachment: scroll;
-    }
-
-}
-
 @media screen and (max-width: 1680px) {
 
     #banner .flex div {
@@ -3035,7 +3027,6 @@ button:disabled,
 @media screen and (max-width: 980px) {
 
     #banner {
-        background-attachment: scroll;
         padding: 5em 0 4em 0;
     }
 

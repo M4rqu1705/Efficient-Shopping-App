@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+
+    <title>Check your camera!</title>
+    <style>
+        video {
+            z-index: 10;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .colorContainer {
+            width: 50px;
+            height: 50px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="webcam" autoplay plaisinline>Video Stream Not Available</video>
+    <button id="startButton">Take picture</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <div class="output">
+        <img alt="The screen capture will appear in this box" id="photo">
+        <img alt="The PROCESSED screen capture will appear in this box" id="processed">
+    </div>
+    <div class="inputs">
+    </div>
+
+    <br>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

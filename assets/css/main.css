@@ -1,25 +1,32 @@
 body{
     background-color: #f9f9f9;
 }
-#shopping-cart-lottie > svg{
+
+.lottie-banner-icon > svg{
     /* It hurts to use !important, but otherwise the SVG won't resize */
+    transition: border 0.3s, background-color 0.3s;
+    border-radius: 25%;
     width: 3.5rem!important;
     height: 3.5rem!important;
 }
 
-
-#map-location-lottie > svg{
-    /* It hurts to use !important, but otherwise the SVG won't resize */
-    width: 3.5rem!important;
-    height: 3.5rem!important;
+.lottie-banner-icon > svg:hover{
+    border: 0.1rem solid rgba(255, 255, 255, 0.25);
+    background-color: rgba(200, 200, 200, 0.25);
 }
 
-#shopping-list-lottie > svg{
-    /* It hurts to use !important, but otherwise the SVG won't resize */
-    width: 3.5rem!important;
-    height: 3.5rem!important;
-}
 
 #banner-sections > div{
     width: 33.33%;
+}
+@media screen and (max-width: 736px) {
+    #banner-sections > div{
+        width: 100.00%;
+    }
+}
+
+
+#banner-sections{
+    justify-content: center;
+    align-items: center;
 }
